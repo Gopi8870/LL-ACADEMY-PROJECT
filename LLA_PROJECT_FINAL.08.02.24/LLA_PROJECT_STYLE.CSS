@@ -1,0 +1,547 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Slab&family=Tajawal&display=swap');
+
+/* all page selected */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Tajawal', sans-serif; */
+}
+
+  .container {
+    height:600px;
+  }
+
+.container_div{
+  overflow: hidden;
+}
+
+body {
+  background: linear-gradient(rgb(9, 9, 87), rgb(144, 102, 211));
+  background-attachment:fixed;
+}
+
+.our-branches-div {
+  border-bottom: 2px solid white;
+  background-color: rgb(3, 5, 14);
+}
+
+#our-branches-city, #our-branches-num {
+  color: white;
+  font-size:20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 5, 14);
+}
+
+
+/********************************** nav bar start *******************************************/
+
+
+.navrow {
+  width: 100%;
+  height:100%;
+  
+}
+.nav-logo-div {
+  height:fit-content; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  #logo-img {
+  width:150px;
+  height:100%; 
+  clip-path: circle(45%);
+  }
+
+.company-name { 
+  color: rgb(240, 217, 8) !important;
+  box-shadow :0px 0px 10px 8px orange !important;
+  border-radius: 25px;
+  padding:5px;
+  width:fit-content;
+  display:flex;
+  justify-content: center;
+  font-size:21px;
+  }
+
+  .company-name-outer { 
+   justify-content:center;  
+  display:flex; 
+  height:70px;
+  align-items: center;
+  border-radius:50px;
+  }
+
+.nav-search {
+  display:flex;
+}
+
+
+.navul, #apply-btn{
+  /* padding:10px ; */
+  gap:1em;
+}
+
+.navli div {
+  border-radius:25px;
+  /* background: transparent; */
+  border: 2px solid orange;
+}
+
+.navli:hover, .navli a:hover {
+  background-color:orange;
+  border-radius:20px;
+  /* padding:20px; */
+}
+
+.apply-btn-a {
+  border-radius: 20px;
+}
+
+.apply-btn-a:hover {
+  border-radius: 20px;
+  background-color: orange;
+  color: white;
+}
+
+#tamil-text {
+  display: flex;
+  background-color: white;
+  padding:8px;
+  border-radius:25px;
+  border: 2px solid orange;
+  color: orangered;
+  font-weight:1000;
+}
+
+.tamil-text-outer {
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/******************************** nav bar end *******************************/
+
+/******************************** page 1 ************************************/
+
+
+
+#page1col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid white;   */
+} 
+
+#pagecol1 {
+  border: 4px solid orange;
+  border-radius: 25px;
+  box-shadow: 30px 30px 20px;
+  margin-top: 30px;
+}
+#whatsappicon {
+  width:85px;
+  height:85px;
+  
+}
+.whatsapp_icon_outer {
+  right:0px;
+  bottom:10px;
+  width: 100px;
+  position:fixed;
+  z-index: 1;
+  
+}
+.web_img {
+  width:80%;
+  height:500px;
+  /* border: 2px solid white; */
+  
+}
+#para1 {
+  font-size: 70px;
+  /* text-shadow: 0px 0px 0px; */
+}
+#para2 {
+  font-size: 40px;
+  margin-left: 50px;
+}
+#ul {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+#ul li {
+  list-style-type: none;
+}
+#course-logo {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0px 0px 0px 0px;
+}
+#htmlimg,
+#cssimg,
+#jsimg,
+#jqueryimg,
+#pythonimg,
+#djangoimg,
+#bootsimg {
+  margin-top: 20px;
+  padding: 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 35px;
+}
+
+/************************************** page 1 end ************************/
+
+/************************************** card page start **********************/
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_1, 
+.card_2, 
+.card_3 {
+  /* width:300px; */
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 2px;
+  height:430px;
+  box-shadow: 25px 25px 15px rgb(13, 9, 70);
+}
+.card_1:hover, 
+.card_2:hover, 
+.card_3:hover {
+  box-shadow:0px 0px 20px 10px whitesmoke;
+}
+
+.card_1 img, 
+.card_2 img, 
+.card_3 img {
+  width:100%;
+  height: 200px;
+  border-radius: 25px 25px 0px 0px;
+  border-bottom: 1px solid rgb(5, 3, 3);
+}
+#python-card-body, #java-card-body, #mern-card-body{
+  position: relative;
+}
+#python-card-btn, #java-card-btn, #mern-card-btn {
+  margin-top:0px;
+  position: absolute;
+  bottom: 10px;
+  width: 85%;
+}
+
+#python-card-body h1, #java-card-body h1, #mern-card-body h1 {
+  font-size:30px;
+}
+
+#arrow_icon {
+  font-size:80px;
+  z-index:1;
+  color: white;
+  text-shadow: 0 0 10px;
+  position:fixed;
+  right:20px;
+  bottom:90px;
+}
+
+/***************************************** card page end *******************************/
+
+/***************************************** carol & form page start *****************************/
+
+.page3 {
+  /* margin: 20px; */
+  /* padding: 30px; */
+}
+
+.formcol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:30px;
+
+}
+
+#form-card-body {
+  width:90%;
+}
+
+.carousel_col {
+  display: flex;
+  justify-content: center;
+}
+.carousel_outer {
+  width:90%;
+  height:100%;
+}
+
+#carouselimg {
+  width:100%;
+  height:700px;
+  border-radius: 25px;
+}
+.carousel_icon_prev, .carousel_icon_next {
+  background-color: black;
+  border-radius:50%;
+  margin:0px;
+  padding:12px;  
+  border: 3px solid black;
+  margin: 20px;
+}
+
+
+/****************************************** carosel & form page enb *******************/
+
+/****************************************** our student feedback page start ***************/
+
+#about-head {
+  color: orange;
+  font-size:40px;
+  /* margin-top:50px; */
+  /* flex-wrap: wrap;  */
+  padding:30px 100px 0px 100px;
+  
+}
+.page4 {
+  height:100%;
+  background-color: rgb(30, 21, 68);
+  border-radius:150px;
+  border: 4px solid orange;
+  
+}
+
+.page4:hover {
+  box-shadow:5px 0px 30px 20px orange;
+}
+
+#feedback-container {
+  /* border: 2px solid white; */
+  width:100%;
+}
+
+#feedback-head {
+  color: orange;
+  /* border: 2px solid; */
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#feedback-head-p {
+  height:fit-content;
+  color: orange;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top:30px;
+}
+
+#feedback-carousel-inner {
+  width:100%;
+  height:fit-content;
+}
+#feedback-carousel-card1, #feedback-carousel-card2, #feedback-carousel-card3, #feedback-carousel-card4 {
+  /* margin-left:90px; */
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid white; */
+  color: white;
+}
+
+.feedback_carousel_img img {
+  width:120px;
+  height: 120px;  
+  border:5px solid orange;
+  border-radius:50%;
+}
+
+.feedback_carousel_img {
+  /* border: 2px solid white; */
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.feedback_carousel_name {
+  margin:15px;
+  /* border: 2px solid white; */
+  height: fit-content;
+  width:fit-content;
+  /* display: flex; */
+  /* position: relative; */
+}
+.feedback_carousel_name i {
+  color: yellow;
+  letter-spacing:10px;
+  
+}
+
+.feedback_carousel_p p {
+  color: white;
+  /* border: 2px solid white; */
+  width: 70%;
+  padding:30px;
+  font-size:20px;
+}
+
+.feedback_carousel_p {
+  width:100%;
+  height: 100%;
+  /* margin-top:150px; */
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+
+.feedback_carousel_p p i {
+  width:40px;
+  font-size:30px;
+  color: orange;
+  padding:10px;
+}
+
+.feedback_carousel_p span {
+  color: red !important;
+  font-size:30px;
+}
+
+
+/****************************************** our student feedback page end ***************/
+
+/* *************************************** placement img start **********************/card
+
+.placement-company-col {
+  padding: 50px;
+}
+
+#placement-company {
+  color: rgb(238, 231, 231);
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.placement-img {
+  width: 200px;
+  height: 200px;
+  /* padding: 20px; */
+  border-radius: 25px;
+  margin-left: 40px;
+}
+
+.company{
+  /* width:100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:5px;
+}
+.company img{
+  width:180px;
+}
+/* *************************************** placement company img start **********************/
+
+/* *************************************** contact start **********************************/
+
+.about-col {
+  background-color: #050217;
+  /* display: flex; */
+  height: 100%;
+}
+
+#contact-head {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid white; */
+}
+
+#contact-head h1 {
+  font-size:40px;
+  padding: 20px;
+  /* border: 2px solid white; */
+}
+
+
+.address_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* border: 2px solid white; */
+  gap:10px;
+}
+
+.address_col i {
+  color: white;
+  font-size: 30px;
+}
+
+#address {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  gap: 40px;
+  padding: 20px;
+  /* border: 2px solid white; */
+  
+}
+
+#address-line {
+  border-left: 3px solid white;
+}
+
+#follow-us {
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#followus-icon a {
+  font-size: 35px;
+}
+
+#followus-icon {
+  display: flex;
+  justify-content: center;
+  gap: 30px ;
+  padding-bottom: 20px;
+  
+}
+
+#fab-icon, #insta-icon, #youtube-icon, #twitter-icon {
+  border:3px solid orange;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:25%;
+}
+
+
+/**************************************** contact end **********************************/
