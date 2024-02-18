@@ -68,7 +68,7 @@ body {
   box-shadow :0px 0px 10px 8px orange !important;
   border-radius: 25px;
   padding:5px;
-  width:fit-content;
+  width:80%;
   display:flex;
   justify-content: center;
   font-size:21px;
@@ -218,39 +218,42 @@ body {
 
 .card_1, 
 .card_2, 
-.card_3 {
+.card_3, 
+.card_4 {
   /* width:300px; */
   border-radius: 25px;
   border: 1px solid black;
   padding: 2px;
-  height:430px;
+  height:400px;
+  width: 350px;
   box-shadow: 25px 25px 15px rgb(13, 9, 70);
 }
 .card_1:hover, 
 .card_2:hover, 
-.card_3:hover {
+.card_3:hover,
+.card_4:hover {
   box-shadow:0px 0px 20px 10px whitesmoke;
 }
 
 .card_1 img, 
 .card_2 img, 
-.card_3 img {
+.card_3 img,
+.card_4 img {
   width:100%;
   height: 200px;
   border-radius: 25px 25px 0px 0px;
   border-bottom: 1px solid rgb(5, 3, 3);
 }
-#python-card-body, #java-card-body, #mern-card-body{
-  position: relative;
+#python-card-body, #java-card-body, #mern-card-body, #ai-card-body{
+  /* position: relative; */
 }
-#python-card-btn, #java-card-btn, #mern-card-btn {
-  margin-top:0px;
+#python-card-btn, #java-card-btn, #mern-card-btn, #ai-card-btn {
   position: absolute;
   bottom: 10px;
   width: 85%;
 }
 
-#python-card-body h1, #java-card-body h1, #mern-card-body h1 {
+#python-card-body h1, #java-card-body h1, #mern-card-body h1, #ai-card-body h1 {
   font-size:30px;
 }
 
