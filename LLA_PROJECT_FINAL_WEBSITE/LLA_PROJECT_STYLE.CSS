@@ -244,9 +244,7 @@ body {
   border-radius: 25px 25px 0px 0px;
   border-bottom: 1px solid rgb(5, 3, 3);
 }
-#python-card-body, #java-card-body, #mern-card-body, #ai-card-body{
-  /* position: relative; */
-}
+
 #python-card-btn, #java-card-btn, #mern-card-btn, #ai-card-btn {
   position: absolute;
   bottom: 10px;
@@ -271,10 +269,6 @@ body {
 
 /***************************************** carol & form page start *****************************/
 
-.page3 {
-  /* margin: 20px; */
-  /* padding: 30px; */
-}
 
 .formcol {
   display: flex;
